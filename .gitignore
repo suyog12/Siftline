@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Caches & temp
+.cache/
+.huggingface/
+hf_cache/
+logs/
+.tmp/
+.temp/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data & large local files
+data/
+*.pdf
+*.docx
+*.md.bak
